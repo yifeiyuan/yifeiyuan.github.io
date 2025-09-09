@@ -1,1 +1,211 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yifei Yuan</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: #fff;
+            padding: 20px 0;
+            border-bottom: 1px solid #ddd;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #2c3e50;
+        }
+
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+            color: #7f8c8d;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            background: #fff;
+            padding: 30px;
+            margin-top: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .profile img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 30px;
+            object-fit: cover;
+            border: 3px solid #eee;
+        }
+
+        .profile-content h2 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+
+        .profile-content p {
+            color: #555;
+        }
+
+        .contact-info {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+
+        .contact-info li {
+            margin-bottom: 5px;
+        }
+
+        .section {
+            background: #fff;
+            padding: 30px;
+            margin-top: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .section h2 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .publication-item, .news-item {
+            border-bottom: 1px solid #eee;
+            padding: 15px 0;
+        }
+
+        .publication-item:last-child, .news-item:last-child {
+            border-bottom: none;
+        }
+
+        .publication-item h3 {
+            margin: 0 0 5px;
+            font-size: 1.1em;
+            color: #34495e;
+        }
+
+        .publication-item p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Yifei Yuan</h1>
+            <p>Staff Engineer at Alibaba Cloud</p>
+            <!-- <nav>
+                <a href="#about">关于我</a>
+                <a href="#research">研究</a>
+                <a href="#publications">出版物</a>
+                <a href="#news">新闻</a>
+            </nav>
+            -->
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section id="about" class="profile">
+            <div class="profile-content">
+              <p>Yifei is a Staff Engineer and Researcher in the Network
+              Research team at Alibaba Cloud. He leads the engineering and
+              research efforts for the network verification and validation
+              project. His work centers on developing formal techniques and
+              building robust, large-scale systems to ensure the correctness
+              and reliability of production networks. Yifei holds a Ph.D. in
+              Computer Science from the University of Pennsylvania and was a
+              postdoctoral researcher at Carnegie Mellon University (CMU).</p>
+                <ul class="contact-info">
+                    <li>Email：yifei[dot]yuan [at] alibaba-inc[dot]com</li>
+                    <li><a
+                        href="https://scholar.google.com/citations?user=Gon4-IkAAAAJ&hl=en">Google
+                        Scholar</a> | <a
+                    href="https://www.linkedin.com/jobs/?mcid=6994434350142418944&src=go-pa&trk=sem-ga_campid.18853522261_asid.146084015209_crid.633923221417_kw.linkedin_d.c_tid.kwd-296170574619_n.g_mt.e_geo.20869&cid=&gclsrc=aw.ds&gad_source=1&gad_campaignid=18853522261&gbraid=0AAAAABIeiSrGQwHMLkx2M4idsL5AKetQ6&gclid=Cj0KCQjwoP_FBhDFARIsANPG24M5XLTG907QGuokef7c7LS4comQv2JxpgE7slzihylBRsvVaEzI_wAaAmyTEALw_wcB">LinkedIn</a> </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="publications" class="section">
+            <h2>Selected Publications</h2>
+            <div class="publication-list">
+                <div class="publication-item">
+                    <h3>New Evolution of Hoyan: Enhancing Scalability, Usability, and Accuracy for Alibaba's Global WAN Verification</h3>
+                    <p><b>Yifei Yuan</b>, Fangdan Ye, Yifan Li, Jingkai Zhang, Mengqi Liu, Yuyang Sang, Ruizhen Yang, Duncheng She, Zhiqing Ye, Tianchen Guo, Xiaobo Zhu, Xinji Tang, Li Jia, Zhongyu Guan, Lingpeng Su, Ci Wang, Ruiyang Feng, Shuo Wu, Zhonghui Xie, Cheng Jin, Peng Zhang, Qing Ma, Xianlong Zeng, Dennis Cai, Ennan Zhai</p>
+                    <p>SIGCOMM 2025</p>
+                </div>
+                <div class="publication-item">
+                    <h3>A General and Efficient Approach to Verifying Traffic Load Properties under Arbitrary 𝑘 Failures</h3>
+                    <p>Ruihan Li, <b>Yifei Yuan</b>, Fangdan Ye, Mengqi Liu, Ruizhen
+                    Yang, Yang Yu, Tianchen Guo, Qing Ma, Xianlong Zeng,
+                    Chenren Xu, Dennis Cai, Ennan Zhai</p>
+                    <p>SIGCOMM 2024</p>
+                    <!--
+                    <p>摘要/链接：<a href="#">论文PDF</a></p>
+                    -->
+                </div>
+                <div class="publication-item">
+                    <h3>Relational Network Verification</h3>
+                    <p>Xieyang Xu, <b>Yifei Yuan</b>, Zachary Kincaid, Arvind Krishnamurthy, Ratul Mahajan, David Walker, Ennan Zhai</p>
+                    <p>SIGCOMM 2024</p>
+                    <!--
+                    <p>摘要/链接：<a href="#">论文PDF</a></p>
+                    -->
+                </div>
+                <div class="publication-item">
+                    <h3>Reasoning about Network Traffic Load Property at Production ScaleRelational Network Verification</h3>
+                    <p>Ruihan Li, Fangdan Ye, <b>Yifei Yuan</b>, Ruizhen Yang,
+                    Bingchuan Tian, Tianchen Guo, Hao Wu, Xiaobo Zhu, Zhongyu
+                    Guan, Qing Ma, Xianlong Zeng, Chenren Xu, Dennis Cai, Ennan
+                    Zhai</p>
+                    <p>NSDI 2024</p>
+                    <!--
+                    <p>摘要/链接：<a href="#">论文PDF</a></p>
+                    -->
+                </div>
+            </div>
+        </section>
+
+
 
